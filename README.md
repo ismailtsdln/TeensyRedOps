@@ -1,5 +1,7 @@
 # TeensyRedOps 🛠️🔴
 
+![TeensyRedOps Banner](references/banner.png)
+
 **Advanced Red Team & Adversary Simulation Research with Teensy Microcontrollers**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -57,19 +59,22 @@ Our mission is to bridge the gap between hardware hacking and red team tradecraf
 
 ### ⌨️ USB HID Emulation
 
-* **Objective:** Simulating rapid, automated keyboard/mouse input to bypass traditional software barriers.
+- **Objective:** Simulating rapid, automated keyboard/mouse input to bypass traditional software barriers.
+
 - **Red Team Use:** Automated execution of commands, social engineering support, and rapid exfiltration.
 - **Defensive Focus:** Monitoring for anomalous input speeds and device registration logs.
 
 ### 🚪 Initial Access Simulation
 
-* **Objective:** Utilizing physical USB proximity to gain an initial foothold.
+- **Objective:** Utilizing physical USB proximity to gain an initial foothold.
+
 - **Enhancements:** Emulating trusted peripherals to bypass "Basic USB Blocking" policies.
 - **Defensive Focus:** Hardware ID (VID/PID) whitelisting and physical access controls.
 
 ### 🛡️ Defense Evasion Concepts
 
-* **Objective:** Researching how hardware-level interactions can stay below the radar of traditional EDR/AV.
+- **Objective:** Researching how hardware-level interactions can stay below the radar of traditional EDR/AV.
+
 - **Focus:** Composite device behaviors and timing-based execution patterns.
 
 ---
